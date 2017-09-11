@@ -20,7 +20,7 @@ wire [5:0] mux_top, mux_bottom;
 assign mux_top = switch[2] ? 6'b101010: 6'b000000;
 assign mux_bottom = switch[3] ? 6'b101010: 6'b111111; 
  
-assign led[7:2] = switch[4] ? mux_top: mux_bottom; 
+assign led[7:2] = switch[4] ? mux_bottom: mux_top; 
 
 endmodule
 
