@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=Z:\cs141_vm_shared\lab1_project\main.ncd
-OUTFILE=Z:\cs141_vm_shared\lab1_project\main.bit
-FAMILY=Spartan6
-PART=xc6slx45-3csg324
-WORKINGDIR=Z:\cs141_vm_shared\lab1_project
-LICENSE=WebPack
-USER_INFO=207362390_1777509885_0_951
