@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "Z:/cs141_vm_shared/lab2/mux_16to1.xst" -ofn "Z:/cs141_vm_shared/lab2/mux_16to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 mux_16to1.ngc mux_16to1.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux_16to1_map.ncd mux_16to1.ngd mux_16to1.pcf 

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+alu instance_name (
+    .X(X), 
+    .Y(Y), 
+    .Z(Z), 
+    .op_code(op_code), 
+    .equal(equal), 
+    .overflow(overflow), 
+    .zero(zero)
+    );
+
+
